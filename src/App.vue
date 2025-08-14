@@ -41,10 +41,9 @@
     </div>
   </div>
 
-
   <!-- hero section -->
   <div
-    class="flex md:flex-row flex-col gap-5 padding pb-20 hero-bg-image lg:items-end items-start bg-no-repeat md:mt-20 mt-10 bg-[url(https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/665b169cd354209f30160ac5_Square-Shapes.svg)]"
+    class="flex md:flex-row flex-col md:gap-0 gap-5 padding pb-20 hero-bg-image lg:items-end items-start bg-no-repeat md:mt-20 mt-10 bg-[url(https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/665b169cd354209f30160ac5_Square-Shapes.svg)]"
   >
     <div class="md:w-[50%] w-[100%]">
       <div class="xl:w-[70%] w-full flex flex-col gap-4">
@@ -57,8 +56,16 @@
           business
         </p>
         <div class="flex md:flex-row flex-col items-center gap-3">
-          <button class="btn !px-8 !py-4 md:basis-auto shrink-0 md:w-auto w-full">Preview Template</button>
-          <button class="outline-btn !px-8 !py-4 md:basis-auto shrink-0 md:w-auto w-full">Learn More</button>
+          <button
+            class="btn !px-8 !py-4 md:basis-auto shrink-0 md:w-auto w-full"
+          >
+            Preview Template
+          </button>
+          <button
+            class="outline-btn !px-8 !py-4 md:basis-auto shrink-0 md:w-auto w-full"
+          >
+            Learn More
+          </button>
         </div>
       </div>
     </div>
@@ -71,11 +78,13 @@
   </div>
 
   <div class="padding mt-[10px]">
-    <h1 class="text-xl font-semibold text-center">
+    <h1 class="text-xl font-semibold lg:text-center text-left">
       More than <span class="text-own-primary">1000+</span> Companies using our
       template
     </h1>
-    <div class=" grid md:grid-cols-6 grid-cols-2 gap-10 items-center justify-items-center mt-[40px]">
+    <div
+      class="grid md:grid-cols-6 grid-cols-2 gap-10 items-center justify-items-center mt-[40px]"
+    >
       <img
         src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6665ab9ed663c4f53ebba1e8_DotSquare-Logo.svg"
         alt=""
@@ -103,15 +112,15 @@
     </div>
   </div>
 
-  <div class="padding mt-[150px]">
-    <h1 class="text-4xl font-bold">Including Custom-made Illustrations</h1>
-    <p class="w-[40%] mt-5">
+  <div class="padding my-[180px]">
+    <h1 class="section-heading">Including Custom-made Illustrations</h1>
+    <p class="section-description">
       Our unique illustrations will allow you to explain concepts relevant to
       SaaS industry in an engaging and fun way.
     </p>
-    <div class="grid grid-cols-3 gap-5 mt-[80px]">
+    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-[50px]">
       <div
-        class="border-[3px] border-border rounded-2xl p-8 flex flex-col gap-5"
+        class="border-[3px] border-border rounded-2xl p-8 flex flex-col gap-5 hover:border-own-primary"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -129,7 +138,7 @@
         <p class="w-[70%]">Get going in days not months with our template.</p>
       </div>
       <div
-        class="border-[3px] border-border rounded-2xl p-8 flex flex-col gap-5"
+        class="border-[3px] border-border rounded-2xl p-8 flex flex-col gap-5 hover:border-own-primary"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -147,7 +156,7 @@
         <p class="w-[70%]">Get going in days not months with our template.</p>
       </div>
       <div
-        class="border-[3px] border-border rounded-2xl p-8 flex flex-col gap-5"
+        class="border-[3px] border-border rounded-2xl p-8 flex flex-col gap-5 hover:border-own-primary"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -169,6 +178,407 @@
         <p class="w-[70%]">
           Highest security standards will provide a peace of mind.
         </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- how it work -->
+  <div class="padding my-[180px]">
+    <h1 class="section-heading">How it works</h1>
+    <p class="section-description">
+      Our unique illustrations will allow you to explain concepts relevant to
+      SaaS industry in an engaging and fun way.
+    </p>
+
+    <div
+      class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-6 gap-24 mt-[50px]"
+    >
+      <div class="flex flex-col justify-between">
+        <img
+          class="md:w-[90%] w-[80%] mx-auto"
+          src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6639f2ebe218fd42ecde7eea_discover-problem.svg"
+          alt=""
+        />
+        <div>
+          <div class="px-3 py-1 rounded-md bg-black text-white w-max mt-10">
+            Step 1
+          </div>
+          <h1 class="text-3xl font-semibold text-own-primary my-3">
+            Discover the Problem
+          </h1>
+          <p>
+            Standing out from the competition is crucial for any Startups
+            success. Pinpointing core issues in your business marketing and
+            sales processes is vital for long-lasting brands.
+          </p>
+          <button class="outline-btn mt-5">Learn More</button>
+        </div>
+      </div>
+
+      <div class="flex flex-col justify-between">
+        <img
+          class="md:w-[90%] w-[80%] mx-auto"
+          src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6639f2c4e4e2a85572fbddf2_use-tool.svg"
+          alt=""
+        />
+        <div>
+          <div class="px-3 py-1 rounded-md bg-black text-white w-max mt-10">
+            Step 2
+          </div>
+          <h1 class="text-3xl font-semibold text-own-primary my-3">
+            Use the Template
+          </h1>
+          <p>
+            Duo Webflow template is made in modern and bold style, and optimised
+            for responsive devices. It's flexible to use and includes a style
+            guide that allows for consistent brand image.
+          </p>
+          <button class="outline-btn mt-5">Learn More</button>
+        </div>
+      </div>
+
+      <div class="flex flex-col justify-between">
+        <img
+          class="md:w-[90%] w-[80%] mx-auto"
+          src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6639f5633925057c8fcbaf99_enjoy-results.svg"
+          alt=""
+        />
+        <div>
+          <div class="px-3 py-1 rounded-md bg-black text-white w-max mt-10">
+            Step 3
+          </div>
+          <h1 class="text-3xl font-semibold text-own-primary my-3">
+            Enjoy results
+          </h1>
+          <p>
+            With our Startup Landing Page Template you will be able to see your
+            sales sky rocket. Get noticed with your audience and create an
+            everlasting brand image that lasts.
+          </p>
+          <button class="outline-btn mt-5">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- integration -->
+  <div class="padding my-[180px]">
+    <h1 class="section-heading">Integrations</h1>
+    <p class="section-description">
+      The integrations section showcases how our software seamlessly connects
+      with other tools, enhancing functionality and streamlining workflows for
+      maximum efficiency.
+    </p>
+    <button class="btn mt-4">Request a Demo</button>
+
+    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 mt-8">
+      <div
+        class="border-[3px] border-border rounded-xl relative hover:border-own-primary transition-all"
+      >
+        <div class="p-8">
+          <img
+            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663ce3ad150cd4ef7c4a1b34_SynthoSphere-logo.svg"
+            alt=""
+          />
+          <p class="mt-3 pb-32">
+            Elevate your business with our cloud-based solutions for seamless
+            collaboration.
+          </p>
+        </div>
+        <div
+          class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute w-full bottom-0"
+        >
+          <button class="btn">Connect Integration</button>
+        </div>
+      </div>
+      <div
+        class="border-[3px] border-border rounded-xl relative hover:border-own-primary transition-all"
+      >
+        <div class="p-8">
+          <img
+            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663c9e10f72e7f086d44abf4_Streamline-logo.svg"
+            alt=""
+          />
+          <p class="mt-3 pb-32">
+            Harness the power of data with our cutting-edge tools for analysis
+            and insight generation.
+          </p>
+        </div>
+        <div
+          class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute w-full bottom-0"
+        >
+          <button class="btn">Connect Integration</button>
+        </div>
+      </div>
+      <div
+        class="border-[3px] border-border rounded-xl relative hover:border-own-primary transition-all"
+      >
+        <div class="p-8">
+          <img
+            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663ce3d9adb4b12431ea60d6_PolarStarHQ-logo.svg"
+            alt=""
+          />
+          <p class="mt-3 pb-32">
+            Optimize your operations effortlessly with our intelligent workflow
+            management platform.
+          </p>
+        </div>
+        <div
+          class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute w-full bottom-0"
+        >
+          <button class="btn">Connect Integration</button>
+        </div>
+      </div>
+      <div
+        class="border-[3px] border-border rounded-xl relative hover:border-own-primary transition-all"
+      >
+        <div class="p-8">
+          <img
+            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663c9e0a2867460c73781e9e_Nexus-Wave.svg"
+            alt=""
+          />
+          <p class="mt-3 pb-32">
+            Stay in sync with real-time updates and insights for agile
+            decision-making on the go.
+          </p>
+        </div>
+        <div
+          class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute w-full bottom-0"
+        >
+          <button class="btn">Connect Integration</button>
+        </div>
+      </div>
+      <div
+        class="border-[3px] border-border rounded-xl relative hover:border-own-primary transition-all"
+      >
+        <div class="p-8">
+          <img
+            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663ce411afd8c3befbd35c32_Cloudbloom-logo.svg"
+            alt=""
+          />
+          <p class="mt-3 pb-32">
+            Transform raw data into actionable intelligence with our advanced
+            synthesis technology.
+          </p>
+        </div>
+        <div
+          class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute bottom-0 w-full"
+        >
+          <button class="btn">Connect Integration</button>
+        </div>
+      </div>
+      <div
+        class="border-[3px] border-border rounded-xl relative hover:border-own-primary transition-all"
+      >
+        <div class="p-8">
+          <img
+            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663ce3f9f342d2fe79c01387_Soucer-pass-logo.svg"
+            alt=""
+          />
+          <p class="mt-3 pb-32">
+            Simplify complex processes and boost productivity with our intuitive
+            automation software.
+          </p>
+        </div>
+        <div
+          class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute bottom-0 w-full"
+        >
+          <button class="btn">Connect Integration</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- accelarate -->
+  <div class="padding my-[180px] flex md:flex-row flex-col items-center">
+    <div class="md:w-[50%] w-full">
+      <h1 class="section-heading xl:w-[80%] w-[90%]">
+        Accelerate your business growth with Duo Template
+      </h1>
+      <div
+        class="xl:w-[70%] lg:w-[90%] w-full border-[3px] border-border rounded-xl p-8 hover:border-own-primary transition-all mt-10"
+      >
+        <div class="flex items-center gap-3">
+          <img
+            class="w-[15px]"
+            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
+            alt=""
+          />
+          <p class="text-lg font-semibold">Create a memorable brand</p>
+        </div>
+        <p class="mt-2 mb-4">
+          Stand out from the competition and get your target audiences attention
+          with using Duo template.
+        </p>
+        <button class="outline-btn">Learn More</button>
+      </div>
+      <div
+        class="xl:w-[70%] lg:w-[90%] w-full border-[3px] border-border rounded-xl p-8 hover:border-own-primary transition-all mt-10"
+      >
+        <div class="flex items-center gap-3">
+          <img
+            class="w-[15px]"
+            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
+            alt=""
+          />
+          <p class="text-lg font-semibold">Launch Quickly</p>
+        </div>
+        <p class="mt-2 mb-4">
+          Duo template allows you to launch your website fast. Whether you're
+          building a landing page, a SaaS website, or a product MVP.
+        </p>
+        <button class="outline-btn">Learn More</button>
+      </div>
+    </div>
+    <div class="md:w-[50%] w-full">
+      <img
+        src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663a2d0080227473fe678ddd_growth-duo.svg"
+        alt=""
+      />
+    </div>
+  </div>
+
+  <!-- pricing plan -->
+  <div class="padding my-[180px]">
+    <h1 class="md:text-4xl text-3xl font-bold text-center mb-5">
+      Choose the right Pricing Plan
+    </h1>
+    <p class="text-center lg:w-[50%] md:w-[80%] w-full mx-auto">
+      Our pricing plans cater to diverse needs, offering flexible options to
+      suit your budget and requirements.
+    </p>
+    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-[50px] gap-8">
+      <div
+        class="border-[3px] border-border rounded-xl p-8 hover:border-own-primary transition-all flex flex-col justify-between bg-white"
+      >
+        <img
+          class="w-[70px]"
+          src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/665af86f80a2c9f285836fc8_personal-plan-icon_1.svg"
+          alt=""
+        />
+        <p class="text-3xl font-medium my-2">Personal</p>
+        <p class="mb-10">
+          Our Personal Plan offers essential features at an affordable price,
+          without breaking the bank.
+        </p>
+        <p class="text-4xl text-own-primary font-bold">$ 35.00</p>
+        <p class="text-sm text-gray-600">/ Per Single License</p>
+
+        <div class="my-10 flex flex-col gap-3">
+          <div class="flex gap-2">
+            <img
+              class="w-[15px]"
+              src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
+              alt=""
+            />
+            <p>Basic Template Customization</p>
+          </div>
+          <div class="flex gap-2">
+            <img
+              class="w-[15px]"
+              src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
+              alt=""
+            />
+            <p>Limited CMS Collections</p>
+          </div>
+          <div class="flex gap-2">
+            <img
+              class="w-[15px]"
+              src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
+              alt=""
+            />
+            <p>Standard Hosting</p>
+          </div>
+        </div>
+        <button class="outline-btn w-max !px-8 !py-4">Get Started</button>
+      </div>
+      <div
+        class="border-[3px] border-border rounded-xl p-8 hover:border-own-primary transition-all flex flex-col justify-between bg-black"
+      >
+        <img
+          class="w-[70px]"
+          src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/665af904a98ef7d8d2a5ad7a_commercial-plan-icon_1.svg"
+          alt=""
+        />
+        <p class="text-3xl font-medium my-2 text-white">Commercial</p>
+        <p class="mb-10 text-white">
+          Designed for small to medium-sized businesses, our Commercial Plan
+          provides advanced tool.
+        </p>
+        <p class="text-4xl text-own-primary font-bold">$ 55.00</p>
+        <p class="text-sm text-gray-600">/ Per Single License</p>
+
+        <div class="my-10 flex flex-col gap-3">
+          <div class="flex gap-2">
+            <img
+              class="w-[15px]"
+              src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
+              alt=""
+            />
+            <p class="text-gray-100">Full Template Customization</p>
+          </div>
+          <div class="flex gap-2">
+            <img
+              class="w-[15px]"
+              src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
+              alt=""
+            />
+            <p class="text-gray-100">Expanded CMS Collections</p>
+          </div>
+          <div class="flex gap-2">
+            <img
+              class="w-[15px]"
+              src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
+              alt=""
+            />
+            <p class="text-gray-100">Priority Support</p>
+          </div>
+        </div>
+        <button class="btn w-max !px-8 !py-4">Get Started</button>
+      </div>
+      <div
+        class="border-[3px] border-border rounded-xl p-8 hover:border-own-primary transition-all flex flex-col justify-between bg-white"
+      >
+        <img
+          class="w-[70px]"
+          src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/665affecb78fada17882908a_extended-plan-icon.svg"
+          alt=""
+        />
+        <p class="text-3xl font-medium my-2">Extended</p>
+        <p class="mb-10">
+          Tailored for large enterprises and organizations, our Extended Plan
+          offers Enterprise solutions.
+        </p>
+        <p class="text-4xl text-own-primary font-bold">$ 95.00</p>
+        <p class="text-sm text-gray-600">/ Per Single License</p>
+
+        <div class="my-10 flex flex-col gap-3">
+          <div class="flex gap-2">
+            <img
+              class="w-[15px]"
+              src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
+              alt=""
+            />
+            <p>Enterprise Hosting Features</p>
+          </div>
+          <div class="flex gap-2">
+            <img
+              class="w-[15px]"
+              src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
+              alt=""
+            />
+            <p>Unlimited CMS Collections</p>
+          </div>
+          <div class="flex gap-2">
+            <img
+              class="w-[15px]"
+              src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
+              alt=""
+            />
+            <p>Dedicated Support Manager</p>
+          </div>
+        </div>
+        <button class="outline-btn w-max !px-8 !py-4">Get Started</button>
       </div>
     </div>
   </div>

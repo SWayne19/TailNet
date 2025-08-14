@@ -2,20 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities{
-    .padding{
-        @apply xl:px-20 lg:px-16 md:px-10 px-5;
-    }
+@layer utilities {
 
-    .btn {
-        @apply px-8 py-2 bg-own-primary text-white rounded-lg font-semibold;
-    }
+  body {
+    background-color: #EEEEEE;
+  }
+  .padding {
+    @apply xl:px-20 lg:px-16 md:px-10 px-5;
+  }
 
-    .outline-btn {
-        @apply px-8 py-2 border-[2px] border-own-primary text-own-primary rounded-lg font-semibold
-    }
-}
+  .btn {
+    @apply px-8 py-2 bg-own-primary text-white rounded-lg font-semibold;
+  }
 
-/* .hero-bg-image{
+  .outline-btn {
+    @apply px-8 py-2 border-[2px] border-own-primary text-own-primary rounded-lg font-semibold;
+  }
+
+  .card {
+    @apply hover:border-own-primary hover:border-[2px] transition-all;
+  }
+
+  .section-heading {
+    @apply md:text-4xl text-3xl md:font-bold font-semibold;
+  }
+
+  .section-description {
+    @apply xl:w-[40%] lg:w-[60%] md:w-[70%] w-full mt-5;
+  }
+
+  .hero-bg-image {
     background-position: -5% 170%;
-} */
+  }
+}
