@@ -286,7 +286,7 @@
           </p>
         </div>
         <div
-          class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute w-full bottom-0"
+          class="bg-[#222831] p-8 mt-6 rounded-bl-xl rounded-br-xl absolute w-full bottom-0"
         >
           <button class="btn">Connect Integration</button>
         </div>
@@ -305,7 +305,7 @@
           </p>
         </div>
         <div
-          class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute w-full bottom-0"
+          class="bg-[#222831] p-8 mt-6 rounded-bl-xl rounded-br-xl absolute w-full bottom-0"
         >
           <button class="btn">Connect Integration</button>
         </div>
@@ -324,7 +324,7 @@
           </p>
         </div>
         <div
-          class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute w-full bottom-0"
+          class="bg-[#222831] p-8 mt-6 rounded-bl-xl rounded-br-xl absolute w-full bottom-0"
         >
           <button class="btn">Connect Integration</button>
         </div>
@@ -343,7 +343,7 @@
           </p>
         </div>
         <div
-          class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute w-full bottom-0"
+          class="bg-[#222831] p-8 mt-6 rounded-bl-xl rounded-br-xl absolute w-full bottom-0"
         >
           <button class="btn">Connect Integration</button>
         </div>
@@ -362,7 +362,7 @@
           </p>
         </div>
         <div
-          class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute bottom-0 w-full"
+          class="bg-[#222831] p-8 mt-6 rounded-bl-xl rounded-br-xl absolute bottom-0 w-full"
         >
           <button class="btn">Connect Integration</button>
         </div>
@@ -381,7 +381,7 @@
           </p>
         </div>
         <div
-          class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute bottom-0 w-full"
+          class="bg-[#222831] p-8 mt-6 rounded-bl-xl rounded-br-xl absolute bottom-0 w-full"
         >
           <button class="btn">Connect Integration</button>
         </div>
@@ -493,7 +493,7 @@
         <button class="outline-btn w-max !px-8 !py-4">Get Started</button>
       </div>
       <div
-        class="border-[3px] border-border rounded-xl p-8 hover:border-own-primary transition-all flex flex-col justify-between bg-black"
+        class="border-[3px] border-border rounded-xl p-8 hover:border-own-primary transition-all flex flex-col justify-between bg-[#222831]"
       >
         <img
           class="w-[70px]"
@@ -579,6 +579,183 @@
           </div>
         </div>
         <button class="outline-btn w-max !px-8 !py-4">Get Started</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- frequently ask question -->
+  <div class="padding my-[180px] flex lg:flex-row md:flex-col flex-col">
+    <div class="lg:w-[50%] md:w-[90%] w-[100%]">
+      <h1 class="section-heading mb-[100px]">Frequently Asked Questions</h1>
+      <img
+        class="w-[70%] mx-auto"
+        src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/665aeb5025ec995f44e6c5fd_faq-section-illustration.svg"
+        alt=""
+      />
+    </div>
+    <div
+      class="lg:w-[50%] md:w-[90%] w-[100%] flex flex-col justify-between gap-8 lg:mt-[20px] md:mt-[40px] mt-[60px]"
+    >
+      <div
+        class="flex w-full bg-[#222831] text-white justify-between px-8 py-4 rounded-2xl hover:border-own-primary transition-all border-[3px]"
+      >
+        <p class="text-xl font-bold lg:w-[85%] md:w-[80%] w-[75%]">
+          Is Webflow SEO-friendly?
+        </p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 24 24"
+        >
+          <!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE -->
+          <path
+            fill="currentColor"
+            d="M11 17h2v-4h4v-2h-4V7h-2v4H7v2h4zm1 5q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"
+          />
+        </svg>
+      </div>
+      <div
+        class="flex w-full bg-[#222831] text-white justify-between px-8 py-4 rounded-2xl hover:border-own-primary transition-all border-[3px]"
+      >
+        <p class="text-xl font-bold lg:w-[85%] md:w-[80%] w-[75%]">
+          How can I ensure my site looks good on all devices?
+        </p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 24 24"
+        >
+          <!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE -->
+          <path
+            fill="currentColor"
+            d="M11 17h2v-4h4v-2h-4V7h-2v4H7v2h4zm1 5q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"
+          />
+        </svg>
+      </div>
+      <div
+        class="flex w-full bg-[#222831] text-white justify-between px-8 py-4 rounded-2xl hover:border-own-primary transition-all border-[3px]"
+      >
+        <p class="text-xl font-bold lg:w-[85%] md:w-[80%] w-[75%]">
+          What if I need to add more pages to the template?
+        </p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 24 24"
+        >
+          <!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE -->
+          <path
+            fill="currentColor"
+            d="M11 17h2v-4h4v-2h-4V7h-2v4H7v2h4zm1 5q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"
+          />
+        </svg>
+      </div>
+      <div
+        class="flex w-full bg-[#222831] text-white justify-between px-8 py-4 rounded-2xl hover:border-own-primary transition-all border-[3px]"
+      >
+        <p class="text-xl font-bold lg:w-[85%] md:w-[80%] w-[75%]">
+          How do I edit the content in a Webflow template?
+        </p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 24 24"
+        >
+          <!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE -->
+          <path
+            fill="currentColor"
+            d="M11 17h2v-4h4v-2h-4V7h-2v4H7v2h4zm1 5q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"
+          />
+        </svg>
+      </div>
+      <div
+        class="flex w-full bg-[#222831] text-white justify-between px-8 py-4 rounded-2xl hover:border-own-primary transition-all border-[3px]"
+      >
+        <p class="text-xl font-bold lg:w-[85%] md:w-[80%] w-[75%]">
+          Can I customize the Webflow template to fit my brand?
+        </p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 24 24"
+        >
+          <!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE -->
+          <path
+            fill="currentColor"
+            d="M11 17h2v-4h4v-2h-4V7h-2v4H7v2h4zm1 5q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- customer review -->
+  <div class="padding my-[180px] bg-[#222831] pt-[100px] pb-[200px]">
+    <h1 class="section-heading text-white text-center">
+      Customer <span class="text-own-primary">Review</span>
+    </h1>
+    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-8 gap-14 mt-[100px]">
+      <div
+        class="border-[3px] border-black/20 text-white rounded-xl p-8 hover:border-own-primary transition-all"
+      >
+        <p class="text-2xl font-medium">
+          "I couldn't be happier with this Webflow template! As a small business
+          owner with limited coding skills, I needed something that was easy to
+          use but still looked professional - and it delivered."
+        </p>
+        <div
+          class="w-[80px] h-[80px] rounded-full border-[3px] border-own-primary mt-5"
+        >
+          <img
+            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6655ff5434a9a1d841b12c9b_avatar-1.webp"
+            alt=""
+          />
+        </div>
+        <p class="text-2xl mt-4 text-own-primary">John Doe</p>
+        <p class="text-sm">CEO / Flerp Studios</p>
+      </div>
+      <div
+        class="border-[3px] border-black/20 text-white rounded-xl p-8 hover:border-own-primary transition-all"
+      >
+        <p class="text-2xl font-medium">
+          "This Webflow template has been a game-changer for my portfolio site.
+          As a freelance designer, I needed a website that showcased my work
+          beautifully and could be easily updated."
+        </p>
+        <div
+          class="w-[80px] h-[80px] rounded-full border-[3px] border-own-primary mt-5"
+        >
+          <img
+            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6655ff57a8c8e95a310bc29b_avatar-2.webp"
+            alt=""
+          />
+        </div>
+        <p class="text-2xl mt-4 text-own-primary">Emma Frost</p>
+        <p class="text-sm">Freelance Designer</p>
+      </div>
+      <div
+        class="border-[3px] border-black/20 text-white rounded-xl p-8 hover:border-own-primary transition-all"
+      >
+        <p class="text-2xl font-medium">
+          "I was initially hesitant to use a template, but this Webflow template
+          exceeded my expectations. The level of customization available is
+          impressive, and the template was easy to work with."
+        </p>
+        <div
+          class="w-[80px] h-[80px] rounded-full border-[3px] border-own-primary mt-5"
+        >
+          <img
+            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6655ff5b17668f713e14de89_avatar-3.webp"
+            alt=""
+          />
+        </div>
+        <p class="text-2xl mt-4 text-own-primary">Brian Choe</p>
+        <p class="text-sm">Creative Director / Trix Agency</p>
       </div>
     </div>
   </div>
