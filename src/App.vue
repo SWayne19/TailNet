@@ -695,11 +695,13 @@
   </div>
 
   <!-- customer review -->
-  <div class="padding my-[180px] bg-[#222831] pt-[100px] pb-[200px]">
+  <div class="padding mt-[180px] bg-[#222831] pt-[100px] pb-[200px]">
     <h1 class="section-heading text-white text-center">
       Customer <span class="text-own-primary">Review</span>
     </h1>
-    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-8 gap-14 mt-[100px]">
+    <div
+      class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-8 gap-14 mt-[100px]"
+    >
       <div
         class="border-[3px] border-black/20 text-white rounded-xl p-8 hover:border-own-primary transition-all"
       >
@@ -756,6 +758,71 @@
         </div>
         <p class="text-2xl mt-4 text-own-primary">Brian Choe</p>
         <p class="text-sm">Creative Director / Trix Agency</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- rebrand -->
+  <div class="padding">
+    <div
+      class="bg-own-primary rounded-3xl py-20 flex flex-col items-center justify-center bg-[url(https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6659dee649696d0bb3e27c7a_Background%20Shapes.svg)] bg-auto bg-no-repeat translate-y-[-50px]"
+      style="background-position: 50%"
+    >
+      <h1 class="lg:text-4xl md:text-3xl text-lg font-semibold">
+        Rebrand your business using Duo template
+      </h1>
+      <p class="text-white md:mt-7 mt-10 xl:w-[50%] lg:w-[70%] md:w-[70%] w-[90%] text-center">
+        Our template will get your business from 0 to hero in no time. Grab your
+        users attention and convert those visitors in paying customers.
+      </p>
+      <div class="flex  md:flex-row flex-col items-center gap-3 md:mt-5 mt-10">
+        <button class="btn !bg-black md:!px-8 md:!py-4 w-full">Preview Templete</button>
+        <button class="btn !bg-white md:!px-8 md:!py-4 !text-own-primary w-full">
+          Learn More
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="padding mt-[100px] pb-[150px]">
+    <div class="grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2 gap-10 md:text-left text-center">
+      <div>
+        <p>© Duo Template</p>
+        <p class="w-[80%]">Crafted by <span class="underline">Toms Design</span></p>
+        <p class="w-[80%]">Powered by <span class="underline">Webflow</span></p>
+      </div>
+      <div>
+        <h1 class="font-bold text-lg">Pages</h1>
+        <ul class="mt-3 flex flex-col gap-3">
+          <li>Home</li>
+        </ul>
+      </div>
+      <div>
+        <h1 class="font-bold text-lg">Admin</h1>
+        <ul class="mt-3 flex flex-col gap-3">
+          <li>Style Guide</li>
+          <li>Licensing</li>
+          <li>Change Log</li>
+          <li>Password</li>
+          <li>404</li>
+        </ul>
+      </div>
+      <div>
+        <h1 class="font-bold text-lg">Social</h1>
+        <ul class="mt-3 flex flex-col gap-3">
+          <li>Instagram</li>
+          <li>Facebook</li>
+          <li>X</li>
+          <li>Youtube</li>
+          <li>Linkedin</li>
+        </ul>
+      </div>
+      <div>
+        <h1 class="font-bold text-lg">Contact</h1>
+        <ul class="mt-3 flex flex-col gap-3">
+          <li>Email me</li>
+          <li>+67 24 24 12 45</li>
+        </ul>
       </div>
     </div>
   </div>
