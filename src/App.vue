@@ -1,33 +1,33 @@
 <template>
   <!-- navbar -->
-  <div
-    class="border-b-2 border-border flex justify-between items-center padding py-6"
-  >
-    <div class="w-[80px]">
-      <img
-        src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6628074b71d6e1e95593d310_Logo.svg"
-        alt=""
-      />
+  <div class="border-b-2 border-border flex justify-between items-center padding py-6">
+    <div class="flex items-center gap-2">
+      <!-- Simple modern network icon (tail/connection lines) -->
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" class="text-own-primary" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="16" cy="16" r="10" stroke="currentColor" stroke-width="2"/>
+        <path d="M16 6v4M16 22v4M6 16h4M22 16h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <span class="font-extrabold text-2xl bg-gradient-to-r from-own-primary to-blue-400 text-transparent bg-clip-text tracking-tight">TailNet</span>
     </div>
     <div class="flex gap-8 items-center">
       <ul class="lg:flex hidden gap-8 items-center">
         <li>
-          <a href="">Process</a>
+          <a href="">Plans</a>
         </li>
         <li>
-          <a href="">Integration</a>
+          <a href="">Coverage</a>
         </li>
         <li>
-          <a href="">Pricing</a>
+          <a href="">Why Us</a>
         </li>
         <li>
-          <a href="">FAQ</a>
+          <a href="">Support</a>
         </li>
         <li>
-          <a href="">Review</a>
+          <a href="">Reviews</a>
         </li>
       </ul>
-      <button class="lg:flex hidden btn">Buy Template</button>
+      <button class="lg:flex hidden btn">Sign Up Now</button>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="38"
@@ -35,7 +35,6 @@
         viewBox="0 0 24 24"
         class="lg:hidden block"
       >
-        <!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE -->
         <path fill="currentColor" d="M3 18v-2h18v2zm0-5v-2h18v2zm0-5V6h18v2z" />
       </svg>
     </div>
@@ -48,18 +47,16 @@
     <div class="md:w-[50%] w-[100%]">
       <div class="xl:w-[70%] w-full flex flex-col gap-4">
         <h1 class="lg:text-6xl text-5xl leading-[1.1] font-bold">
-          Landing Page Template for
-          <span class="text-own-primary">Startups</span>
+          Fast, Reliable <span class="text-own-primary">Internet for Everyone</span>
         </h1>
         <p class="">
-          Use our template to quickly and efficiently brand your growing
-          business
+          Experience lightning-fast fiber and wireless internet with the best coverage in your city. Stay connected, stream, game, and work without interruption.
         </p>
         <div class="flex md:flex-row flex-col items-center gap-3">
           <button
             class="btn !px-8 !py-4 md:basis-auto shrink-0 md:w-auto w-full"
           >
-            Preview Template
+            Check Availability
           </button>
           <button
             class="outline-btn !px-8 !py-4 md:basis-auto shrink-0 md:w-auto w-full"
@@ -69,114 +66,74 @@
         </div>
       </div>
     </div>
-    <div class="md:w-[50%] w-[100%]">
-      <img
-        src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/662a5c31b674b313da821db0_Hero-Illustration.svg"
-        alt=""
-      />
+    <div class="md:w-[50%] w-[100%] flex justify-center items-center">
+      <!-- Professional Abstract Internet SVG Icon Instead of Photo -->
+      <svg
+        width="320"
+        height="220"
+        viewBox="0 0 320 220"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="mx-auto"
+      >
+        <ellipse cx="160" cy="110" rx="100" ry="80" fill="#E0F2FE"/>
+        <ellipse cx="160" cy="110" rx="70" ry="56" fill="#38BDF8"/>
+        <!-- Main network circle -->
+        <circle cx="160" cy="110" r="38" fill="#fff" stroke="#2563eb" stroke-width="6"/>
+        <!-- Nodes (dots) -->
+        <circle cx="80" cy="110" r="8" fill="#2563eb" />
+        <circle cx="240" cy="110" r="8" fill="#2563eb" />
+        <circle cx="160" cy="38" r="8" fill="#2563eb" />
+        <circle cx="160" cy="182" r="8" fill="#2563eb" />
+        <!-- Connection lines -->
+        <line x1="88" y1="110" x2="122" y2="110" stroke="#2563eb" stroke-width="3"/>
+        <line x1="198" y1="110" x2="232" y2="110" stroke="#2563eb" stroke-width="3"/>
+        <line x1="160" y1="46" x2="160" y2="72" stroke="#2563eb" stroke-width="3"/>
+        <line x1="160" y1="148" x2="160" y2="174" stroke="#2563eb" stroke-width="3"/>
+        <!-- Small white nodes -->
+        <circle cx="120" cy="82" r="6" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+        <circle cx="200" cy="82" r="6" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+        <circle cx="120" cy="138" r="6" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+        <circle cx="200" cy="138" r="6" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+        <!-- More connecting lines -->
+        <line x1="126" y1="88" x2="154" y2="102" stroke="#60a5fa" stroke-width="2"/>
+        <line x1="194" y1="88" x2="166" y2="102" stroke="#60a5fa" stroke-width="2"/>
+        <line x1="126" y1="132" x2="154" y2="118" stroke="#60a5fa" stroke-width="2"/>
+        <line x1="194" y1="132" x2="166" y2="118" stroke="#60a5fa" stroke-width="2"/>
+      </svg>
     </div>
   </div>
-
-  <div class="padding mt-[10px]">
-    <h1 class="text-xl font-semibold lg:text-center text-left">
-      More than <span class="text-own-primary">1000+</span> Companies using our
-      template
-    </h1>
-    <div
-      class="grid md:grid-cols-6 grid-cols-2 gap-10 items-center justify-items-center mt-[40px]"
-    >
-      <img
-        src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6665ab9ed663c4f53ebba1e8_DotSquare-Logo.svg"
-        alt=""
-      />
-      <img
-        src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6665abbcfc4dca184183e738_Wiggle-Logo.svg"
-        alt=""
-      />
-      <img
-        src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6665abe3bb1cc3289b9bfd5a_Sealife-Logo.svg"
-        alt=""
-      />
-      <img
-        src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6665ac001434b3a48f948b84_LoopMedia-Logo.svg"
-        alt=""
-      />
-      <img
-        src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6665ac172b9167ca66cce90e_Tricole45-Logo.svg"
-        alt=""
-      />
-      <img
-        src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6665ac32bb1cc3289b9c29a4_PlutoDelux-Logo.svg"
-        alt=""
-      />
-    </div>
-  </div>
-
+  
   <div class="padding my-[180px]">
-    <h1 class="section-heading">Including Custom-made Illustrations</h1>
+    <h1 class="section-heading">Why Choose Us?</h1>
     <p class="section-description">
-      Our unique illustrations will allow you to explain concepts relevant to
-      SaaS industry in an engaging and fun way.
+      Discover what sets our internet service apart. Modern infrastructure, affordable plans, and industry-leading customer care for homes and businesses.
     </p>
     <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-[50px]">
-      <div
-        class="border-[3px] border-border rounded-2xl p-8 flex flex-col gap-5 hover:border-own-primary"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="32"
-          height="32"
-          viewBox="0 0 24 24"
-        >
-          <!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE -->
-          <path
-            fill="currentColor"
-            d="M14 22v-3.075l5.525-5.5q.225-.225.5-.325t.55-.1q.3 0 .575.113t.5.337l.925.925q.2.225.313.5t.112.55t-.1.563t-.325.512l-5.5 5.5zm7.5-6.575l-.925-.925zm-6 5.075h.95l3.025-3.05l-.45-.475l-.475-.45l-3.05 3.025zM6 22q-.825 0-1.412-.587T4 20V4q0-.825.588-1.412T6 2h8l6 6v3h-2V9h-5V4H6v16h6v2zm13.025-5.025l-.475-.45l.925.925z"
-          />
+      <div class="border-[3px] border-border rounded-2xl p-8 flex flex-col gap-5 hover:border-own-primary">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+          <!-- Rocket/Speed Icon -->
+          <path fill="currentColor" d="M2 16.5L11.98 21l-4.5-10.83 9.68-6.46-1.97 12.24L12.42 17l-8.89-1.49zm8.17 2.32L4 17.06l6.17 1.76zm5.41-13.71l1.41 1.41a1 1 0 0 1 0 1.41l-1.41 1.41a1 1 0 1 1-1.41-1.41l1.41-1.41a1 1 0 0 1 1.41 0z"/>
         </svg>
-        <p class="text-2xl font-bold">Easy Setup</p>
-        <p class="w-[70%]">Get going in days not months with our template.</p>
+        <p class="text-2xl font-bold">Lightning Fast Speeds</p>
+        <p class="w-[70%]">Stream and game in 4K with up to 1Gbps symmetrical speeds.</p>
       </div>
-      <div
-        class="border-[3px] border-border rounded-2xl p-8 flex flex-col gap-5 hover:border-own-primary"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="32"
-          height="32"
-          viewBox="0 0 24 24"
-        >
-          <!-- Icon from Myna UI Icons by Praveen Juge - https://github.com/praveenjuge/mynaui-icons/blob/main/LICENSE -->
-          <path
-            fill="currentColor"
-            d="M12 2.25a.75.75 0 0 1 .75.75v1.25H17a.75.75 0 0 1 0 1.5h-4.25v5.5h1.75a4.25 4.25 0 0 1 0 8.5h-1.75V21a.75.75 0 0 1-1.5 0v-1.25H6a.75.75 0 0 1 0-1.5h5.25v-5.5H9.5a4.25 4.25 0 0 1 0-8.5h1.75V3a.75.75 0 0 1 .75-.75m-.75 3.5H9.5a2.75 2.75 0 0 0 0 5.5h1.75zm1.5 7v5.5h1.75a2.75 2.75 0 1 0 0-5.5z"
-          />
+      <div class="border-[3px] border-border rounded-2xl p-8 flex flex-col gap-5 hover:border-own-primary">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+          <!-- Price/Discount Icon -->
+          <path fill="currentColor" d="M17 17a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM21 11V7.24H14a2 2 0 1 0 0 4h7zm-9-6.55L4 7.24v3.76h7V4.45zM14 19.76l7-3.79v-3.82h-7v7.61zM2 7.24V11h7V4.45L2 7.24zm0 9.52V13h7v7.55l-7-3.79zm12 3.79V13h7v3.76l-7 3.79z"/>
         </svg>
-        <p class="text-2xl font-bold">Flexible Pricing</p>
-        <p class="w-[70%]">Get going in days not months with our template.</p>
+        <p class="text-2xl font-bold">Affordable Plans</p>
+        <p class="w-[70%]">Flexible plans for every budget. No hidden fees, ever.</p>
       </div>
-      <div
-        class="border-[3px] border-border rounded-2xl p-8 flex flex-col gap-5 hover:border-own-primary"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="32"
-          height="32"
-          viewBox="0 0 64 64"
-        >
-          <!-- Icon from Lineicons by Lineicons - https://github.com/LineiconsHQ/Lineicons/blob/main/LICENSE.md -->
-          <path
-            fill="currentColor"
-            d="M53.6 7.5L33.3 1.9c-.8-.2-1.7-.2-2.5 0L10.4 7.5c-2.1.6-3.6 2.5-3.6 4.7V27c0 15.5 9.2 29.2 23.4 34.9c.6.2 1.2.4 1.8.4s1.2-.1 1.8-.4c14.2-5.7 23.4-19.5 23.4-35V12.2c0-2.2-1.5-4.1-3.6-4.7m-.9 19.4c0 13.4-8.3 25.8-20.5 30.8h-.3c-12.5-5-20.6-17.1-20.6-30.7V12.2c0-.1.1-.3.2-.3l20.4-5.6h.2l20.4 5.6c.1 0 .2.2.2.3z"
-          />
-          <path
-            fill="currentColor"
-            d="M43.3 22.6L29.5 34.2L23.3 29c-1-.8-2.4-.7-3.2.3s-.7 2.4.3 3.2l7.6 6.4c.4.4.9.5 1.4.5s1-.2 1.4-.5L46.2 26c1-.8 1.1-2.2.3-3.2c-.8-.9-2.3-1-3.2-.2"
-          />
+      <div class="border-[3px] border-border rounded-2xl p-8 flex flex-col gap-5 hover:border-own-primary">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+          <!-- Support Icon -->
+          <path fill="currentColor" d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2Zm1 17.93V20h-2v-.07A8.12 8.12 0 0 1 4.07 13H6v-2H4.07A8.12 8.12 0 0 1 11 4.07V6h2V4.07A8.12 8.12 0 0 1 19.93 11H18v2h1.93A8.12 8.12 0 0 1 13 19.93Z"/>
         </svg>
-        <p class="text-2xl font-bold">Secure Solution</p>
+        <p class="text-2xl font-bold">24/7 Local Support</p>
         <p class="w-[70%]">
-          Highest security standards will provide a peace of mind.
+          Dedicated team ready to help—day or night.
         </p>
       </div>
     </div>
@@ -184,310 +141,299 @@
 
   <!-- how it work -->
   <div class="padding my-[180px]">
-    <h1 class="section-heading">How it works</h1>
+    <h1 class="section-heading">Getting Connected is Easy</h1>
     <p class="section-description">
-      Our unique illustrations will allow you to explain concepts relevant to
-      SaaS industry in an engaging and fun way.
+      From sign-up to streaming, we make getting online effortless in just 3 simple steps.
     </p>
 
-    <div
-      class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-6 gap-24 mt-[50px]"
-    >
-      <div class="flex flex-col justify-between">
-        <img
-          class="md:w-[90%] w-[80%] mx-auto"
-          src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6639f2ebe218fd42ecde7eea_discover-problem.svg"
-          alt=""
-        />
-        <div>
-          <div class="px-3 py-1 rounded-md bg-black text-white w-max mt-10">
-            Step 1
-          </div>
-          <h1 class="text-3xl font-semibold text-own-primary my-3">
-            Discover the Problem
-          </h1>
+    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-6 gap-24 mt-[50px]">
+      <div class="flex flex-col justify-between items-center">
+        <!-- Professional icon instead of illustration -->
+        <div class="w-[90px] h-[90px] rounded-full bg-blue-50 flex items-center justify-center shadow mb-4">
+          <svg width="48" height="48" fill="none" viewBox="0 0 48 48">
+            <circle cx="24" cy="24" r="20" fill="#38BDF8"/>
+            <!-- phone/chat icon -->
+            <rect x="16" y="16" width="16" height="16" rx="4" fill="#fff"/>
+            <path d="M20 20h8v2h-8zm0 4h8v2h-8zm9 3.5c0 1-.5 1.5-1.5 1.5h-7c-1 0-1.5-.5-1.5-1.5V19.5A1.5 1.5 0 0 1 20.5 18h7A1.5 1.5 0 0 1 29 19.5v7.5z" fill="#38BDF8" opacity="0.25"/>
+          </svg>
+        </div>
+        <div class="text-center">
+          <div class="px-3 py-1 rounded-md bg-black text-white w-max mt-4 mx-auto">Step 1</div>
+          <h1 class="text-3xl font-semibold text-own-primary my-3">Contact Us</h1>
           <p>
-            Standing out from the competition is crucial for any Startups
-            success. Pinpointing core issues in your business marketing and
-            sales processes is vital for long-lasting brands.
+            Enter your address and contact info. We'll check your area and recommend the best plan for your home or business.
           </p>
-          <button class="outline-btn mt-5">Learn More</button>
+          <button class="outline-btn mt-5">Get in Touch</button>
         </div>
       </div>
 
-      <div class="flex flex-col justify-between">
-        <img
-          class="md:w-[90%] w-[80%] mx-auto"
-          src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6639f2c4e4e2a85572fbddf2_use-tool.svg"
-          alt=""
-        />
-        <div>
-          <div class="px-3 py-1 rounded-md bg-black text-white w-max mt-10">
-            Step 2
-          </div>
-          <h1 class="text-3xl font-semibold text-own-primary my-3">
-            Use the Template
-          </h1>
+      <div class="flex flex-col justify-between items-center">
+        <!-- Professional icon instead of illustration -->
+        <div class="w-[90px] h-[90px] rounded-full bg-blue-50 flex items-center justify-center shadow mb-4">
+          <svg width="48" height="48" fill="none" viewBox="0 0 48 48">
+            <circle cx="24" cy="24" r="20" fill="#2563eb"/>
+            <!-- calendar settings icon -->
+            <rect x="14" y="16" width="20" height="14" rx="4" fill="#fff"/>
+            <rect x="18" y="22" width="12" height="3" rx="1" fill="#2563eb" opacity="0.3"/>
+            <circle cx="32.5" cy="16.5" r="2.5" fill="#2563eb" />
+          </svg>
+        </div>
+        <div class="text-center">
+          <div class="px-3 py-1 rounded-md bg-black text-white w-max mt-4 mx-auto">Step 2</div>
+          <h1 class="text-3xl font-semibold text-own-primary my-3">Schedule Installation</h1>
           <p>
-            Duo Webflow template is made in modern and bold style, and optimised
-            for responsive devices. It's flexible to use and includes a style
-            guide that allows for consistent brand image.
+            Pick a date and our expert technicians will quickly get you online with minimal disruption.
           </p>
-          <button class="outline-btn mt-5">Learn More</button>
+          <button class="outline-btn mt-5">Book Today</button>
         </div>
       </div>
 
-      <div class="flex flex-col justify-between">
-        <img
-          class="md:w-[90%] w-[80%] mx-auto"
-          src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6639f5633925057c8fcbaf99_enjoy-results.svg"
-          alt=""
-        />
-        <div>
-          <div class="px-3 py-1 rounded-md bg-black text-white w-max mt-10">
-            Step 3
-          </div>
-          <h1 class="text-3xl font-semibold text-own-primary my-3">
-            Enjoy results
-          </h1>
+      <div class="flex flex-col justify-between items-center">
+        <!-- Professional icon instead of illustration -->
+        <div class="w-[90px] h-[90px] rounded-full bg-blue-50 flex items-center justify-center shadow mb-4">
+          <svg width="48" height="48" fill="none" viewBox="0 0 48 48">
+            <circle cx="24" cy="24" r="20" fill="#22D3EE"/>
+            <!-- wifi/speed icon -->
+            <path d="M24 30c2.209 0 4-1.791 4-4h-8c0 2.209 1.791 4 4 4z" fill="#fff"/>
+            <path d="M24 20a8 8 0 0 1 8 8h-2a6 6 0 0 0-12 0h-2a8 8 0 0 1 8-8z" fill="#white" opacity="0.2"/>
+            <circle cx="24" cy="34" r="3" fill="#fff" stroke="#0891B2" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="text-center">
+          <div class="px-3 py-1 rounded-md bg-black text-white w-max mt-4 mx-auto">Step 3</div>
+          <h1 class="text-3xl font-semibold text-own-primary my-3">Enjoy High-Speed Internet</h1>
           <p>
-            With our Startup Landing Page Template you will be able to see your
-            sales sky rocket. Get noticed with your audience and create an
-            everlasting brand image that lasts.
+            Start using reliable, ultra-fast internet instantly—stream, work, and play with no lag!
           </p>
-          <button class="outline-btn mt-5">Learn More</button>
+          <button class="outline-btn mt-5">View Features</button>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- integration -->
+  <!-- integration / partners -->
   <div class="padding my-[180px]">
-    <h1 class="section-heading">Integrations</h1>
+    <h1 class="section-heading">Compatible With Your Devices</h1>
     <p class="section-description">
-      The integrations section showcases how our software seamlessly connects
-      with other tools, enhancing functionality and streamlining workflows for
-      maximum efficiency.
+      Our internet works seamlessly with all your modern devices and smart home solutions—easy, secure, and reliable connectivity for everything you do.
     </p>
-    <button class="btn mt-4">Request a Demo</button>
+    <button class="btn mt-4">Request a Trial</button>
 
     <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 mt-8">
       <div
         class="border-[3px] border-border rounded-xl relative hover:border-own-primary transition-all"
       >
-        <div class="p-8">
-          <img
-            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663ce3ad150cd4ef7c4a1b34_SynthoSphere-logo.svg"
-            alt=""
-          />
-          <p class="mt-3 pb-32">
-            Elevate your business with our cloud-based solutions for seamless
-            collaboration.
+        <div class="p-8 flex flex-col h-full items-center">
+          <!-- Wi-Fi Router Icon -->
+          <svg width="60" height="60" fill="none" viewBox="0 0 48 48">
+            <rect x="8" y="28" width="32" height="10" rx="4" fill="#38BDF8"/>
+            <rect x="14" y="22" width="20" height="6" rx="2" fill="#2563eb"/>
+            <circle cx="32" cy="33" r="2" fill="#fff"/>
+            <rect x="19" y="36" width="10" height="2" rx="1" fill="#dbeafe"/>
+            <!-- WiFi arcs -->
+            <path d="M24 18c4 0 8 1 10 3" stroke="#2563eb" stroke-width="2" fill="none"/>
+            <path d="M24 14c6 0 12 2 14 6" stroke="#60a5fa" stroke-width="1.5" fill="none" opacity="0.7"/>
+          </svg>
+          <p class="mt-3 pb-32 text-center">
+            Compatible with all Wi-Fi 5/6 routers and mesh systems for maximum home coverage.
           </p>
         </div>
-        <div
-          class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute w-full bottom-0"
-        >
-          <button class="btn">Connect Integration</button>
+        <div class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute w-full bottom-0">
+          <button class="btn">Shop Routers</button>
         </div>
       </div>
       <div
         class="border-[3px] border-border rounded-xl relative hover:border-own-primary transition-all"
       >
-        <div class="p-8">
-          <img
-            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663c9e10f72e7f086d44abf4_Streamline-logo.svg"
-            alt=""
-          />
-          <p class="mt-3 pb-32">
-            Harness the power of data with our cutting-edge tools for analysis
-            and insight generation.
+        <div class="p-8 flex flex-col h-full items-center">
+          <!-- Smart TV Icon -->
+          <svg width="60" height="60" fill="none" viewBox="0 0 48 48">
+            <rect x="8" y="14" width="32" height="18" rx="4" fill="#2563eb"/>
+            <rect x="16" y="36" width="16" height="2" rx="1" fill="#38bdf8"/>
+            <rect x="22" y="38" width="4" height="4" rx="2" fill="#2563eb"/>
+            <rect x="12" y="18" width="24" height="10" rx="2" fill="#fff" opacity="0.3"/>
+          </svg>
+          <p class="mt-3 pb-32 text-center">
+            Stream movies, sports, and more on your favorite Smart TVs with no interruptions.
           </p>
         </div>
-        <div
-          class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute w-full bottom-0"
-        >
-          <button class="btn">Connect Integration</button>
+        <div class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute w-full bottom-0">
+          <button class="btn">See TV Compatiblity</button>
         </div>
       </div>
       <div
         class="border-[3px] border-border rounded-xl relative hover:border-own-primary transition-all"
       >
-        <div class="p-8">
-          <img
-            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663ce3d9adb4b12431ea60d6_PolarStarHQ-logo.svg"
-            alt=""
-          />
-          <p class="mt-3 pb-32">
-            Optimize your operations effortlessly with our intelligent workflow
-            management platform.
+        <div class="p-8 flex flex-col h-full items-center">
+          <!-- Mobile Device Icon -->
+          <svg width="60" height="60" fill="none" viewBox="0 0 48 48">
+            <rect x="16" y="8" width="16" height="32" rx="4" fill="#22D3EE"/>
+            <circle cx="24" cy="36" r="2" fill="#2563eb"/>
+            <rect x="18" y="12" width="12" height="18" rx="2" fill="#fff" opacity="0.3"/>
+          </svg>
+          <p class="mt-3 pb-32 text-center">
+            Flawless connectivity for your smartphones, tablets, and smart home gadgets.
           </p>
         </div>
-        <div
-          class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute w-full bottom-0"
-        >
-          <button class="btn">Connect Integration</button>
+        <div class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute w-full bottom-0">
+          <button class="btn">Learn More</button>
         </div>
       </div>
       <div
         class="border-[3px] border-border rounded-xl relative hover:border-own-primary transition-all"
       >
-        <div class="p-8">
-          <img
-            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663c9e0a2867460c73781e9e_Nexus-Wave.svg"
-            alt=""
-          />
-          <p class="mt-3 pb-32">
-            Stay in sync with real-time updates and insights for agile
-            decision-making on the go.
+        <div class="p-8 flex flex-col h-full items-center">
+          <!-- Gaming PC Icon -->
+          <svg width="60" height="60" fill="none" viewBox="0 0 48 48">
+            <rect x="10" y="18" width="28" height="16" rx="4" fill="#2563eb"/>
+            <rect x="16" y="24" width="16" height="6" rx="2" fill="#38bdf8"/>
+            <rect x="19" y="34" width="10" height="2" rx="1" fill="#dbeafe"/>
+            <circle cx="34" cy="30" r="2" fill="#fff"/>
+          </svg>
+          <p class="mt-3 pb-32 text-center">
+            Low-latency connections for gamers and creatives on wired and wireless setups.
           </p>
         </div>
-        <div
-          class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute w-full bottom-0"
-        >
-          <button class="btn">Connect Integration</button>
+        <div class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute w-full bottom-0">
+          <button class="btn">Boost Gaming</button>
         </div>
       </div>
       <div
         class="border-[3px] border-border rounded-xl relative hover:border-own-primary transition-all"
       >
-        <div class="p-8">
-          <img
-            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663ce411afd8c3befbd35c32_Cloudbloom-logo.svg"
-            alt=""
-          />
-          <p class="mt-3 pb-32">
-            Transform raw data into actionable intelligence with our advanced
-            synthesis technology.
+        <div class="p-8 flex flex-col h-full items-center">
+          <!-- Cloud Icon -->
+          <svg width="60" height="60" fill="none" viewBox="0 0 48 48">
+            <ellipse cx="24" cy="32" rx="14" ry="8" fill="#E0F2FE"/>
+            <ellipse cx="28" cy="28" rx="10" ry="6" fill="#38BDF8"/>
+            <circle cx="20" cy="28" r="4" fill="#2563eb" />
+            <ellipse cx="33" cy="31" rx="2.5" ry="1.5" fill="#fff" opacity="0.6"/>
+          </svg>
+          <p class="mt-3 pb-32 text-center">
+            Reliable bandwidth for video calls and smooth workflow with all major cloud services.
           </p>
         </div>
-        <div
-          class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute bottom-0 w-full"
-        >
-          <button class="btn">Connect Integration</button>
+        <div class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute bottom-0 w-full">
+          <button class="btn">Business Solutions</button>
         </div>
       </div>
       <div
         class="border-[3px] border-border rounded-xl relative hover:border-own-primary transition-all"
       >
-        <div class="p-8">
-          <img
-            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663ce3f9f342d2fe79c01387_Soucer-pass-logo.svg"
-            alt=""
-          />
-          <p class="mt-3 pb-32">
-            Simplify complex processes and boost productivity with our intuitive
-            automation software.
+        <div class="p-8 flex flex-col h-full items-center">
+          <!-- IoT Icon -->
+          <svg width="60" height="60" fill="none" viewBox="0 0 48 48">
+            <circle cx="24" cy="24" r="17" fill="#22D3EE" />
+            <rect x="17" y="19" width="14" height="10" rx="2" fill="#fff"/>
+            <circle cx="24" cy="24" r="3" fill="#2563eb"/>
+            <rect x="22" y="27" width="4" height="2" rx="1" fill="#2563eb" opacity="0.3"/>
+          </svg>
+          <p class="mt-3 pb-32 text-center">
+            Secure and robust for connecting all your smart home and IoT devices.
           </p>
         </div>
-        <div
-          class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute bottom-0 w-full"
-        >
-          <button class="btn">Connect Integration</button>
+        <div class="bg-black p-8 mt-6 rounded-bl-xl rounded-br-xl absolute bottom-0 w-full">
+          <button class="btn">Explore Tech</button>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- accelarate -->
+  <!-- accelerate your internet life -->
   <div class="padding my-[180px] flex md:flex-row flex-col items-center">
     <div class="md:w-[50%] w-full">
       <h1 class="section-heading xl:w-[80%] w-[90%]">
-        Accelerate your business growth with Duo Template
+        Supercharge Your Online Life with Ultra Internet
       </h1>
       <div
         class="xl:w-[70%] lg:w-[90%] w-full border-[3px] border-border rounded-xl p-8 hover:border-own-primary transition-all mt-10"
       >
         <div class="flex items-center gap-3">
-          <img
-            class="w-[15px]"
-            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
-            alt=""
-          />
-          <p class="text-lg font-semibold">Create a memorable brand</p>
+          <img class="w-[15px]" src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg" alt="" />
+          <p class="text-lg font-semibold">Unlimited Data</p>
         </div>
         <p class="mt-2 mb-4">
-          Stand out from the competition and get your target audiences attention
-          with using Duo template.
+          Stream, game, and work from home—without worrying about limits or throttling.
         </p>
-        <button class="outline-btn">Learn More</button>
+        <button class="outline-btn">Unlimited Plans</button>
       </div>
       <div
         class="xl:w-[70%] lg:w-[90%] w-full border-[3px] border-border rounded-xl p-8 hover:border-own-primary transition-all mt-10"
       >
         <div class="flex items-center gap-3">
-          <img
-            class="w-[15px]"
-            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
-            alt=""
-          />
-          <p class="text-lg font-semibold">Launch Quickly</p>
+          <img class="w-[15px]" src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg" alt="" />
+          <p class="text-lg font-semibold">Fast Installation</p>
         </div>
         <p class="mt-2 mb-4">
-          Duo template allows you to launch your website fast. Whether you're
-          building a landing page, a SaaS website, or a product MVP.
+          Get connected in as little as 24 hours by our certified local engineers.
         </p>
-        <button class="outline-btn">Learn More</button>
+        <button class="outline-btn">Install Now</button>
       </div>
     </div>
-    <div class="md:w-[50%] w-full">
-      <img
-        src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663a2d0080227473fe678ddd_growth-duo.svg"
-        alt=""
-      />
+    <div class="md:w-[50%] w-full flex justify-center items-center">
+      <!-- Professional Speed SVG Icon Instead of Photo -->
+      <svg width="320" height="220" viewBox="0 0 320 220" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-auto">
+        <!-- Speed dial background -->
+        <ellipse cx="160" cy="110" rx="100" ry="80" fill="#E0F2FE"/>
+        <ellipse cx="160" cy="110" rx="70" ry="56" fill="#38BDF8"/>
+        <!-- Speed meter arc -->
+        <path d="M72 132 Q100 56 160 56 Q220 56 248 132" stroke="#2563eb" stroke-width="10" fill="none"/>
+        <!-- Ticker arrow -->
+        <g>
+          <rect x="156" y="80" width="8" height="45" rx="4" fill="#fff"/>
+          <rect x="156" y="80" width="8" height="30" rx="4" fill="#2563eb"/>
+        </g>
+        <!-- Central knob -->
+        <circle cx="160" cy="125" r="17" fill="#fff" stroke="#2563eb" stroke-width="6"/>
+        <!-- Decorative ticks -->
+        <rect x="93" y="106" width="5" height="13" rx="2.5" fill="#38BDF8"/>
+        <rect x="222" y="106" width="5" height="13" rx="2.5" fill="#38BDF8"/>
+        <rect x="133" y="85" width="5" height="13" rx="2.5" fill="#38BDF8"/>
+        <rect x="183" y="85" width="5" height="13" rx="2.5" fill="#38BDF8"/>
+      </svg>
     </div>
   </div>
 
   <!-- pricing plan -->
   <div class="padding my-[180px]">
     <h1 class="md:text-4xl text-3xl font-bold text-center mb-5">
-      Choose the right Pricing Plan
+      Choose Your Internet Plan
     </h1>
     <p class="text-center lg:w-[50%] md:w-[80%] w-full mx-auto">
-      Our pricing plans cater to diverse needs, offering flexible options to
-      suit your budget and requirements.
+      Simple, affordable pricing for every household and business. No contracts, no hidden fees—just fast, reliable internet.
     </p>
     <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-[50px] gap-8">
       <div
         class="border-[3px] border-border rounded-xl p-8 hover:border-own-primary transition-all flex flex-col justify-between bg-white"
       >
-        <img
-          class="w-[70px]"
-          src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/665af86f80a2c9f285836fc8_personal-plan-icon_1.svg"
-          alt=""
-        />
-        <p class="text-3xl font-medium my-2">Personal</p>
+        <!-- Home Basic Icon SVG instead of PNG -->
+        <div class="flex justify-center">
+          <svg width="70" height="70" fill="none" viewBox="0 0 48 48">
+            <rect x="10" y="20" width="28" height="16" rx="4" fill="#38BDF8"/>
+            <rect x="18" y="32" width="12" height="4" rx="2" fill="#fff"/>
+            <rect x="14" y="24" width="20" height="6" rx="3" fill="#2563eb" opacity="0.4"/>
+            <rect x="20" y="28" width="8" height="2" rx="1" fill="#dbeafe"/>
+          </svg>
+        </div>
+        <p class="text-3xl font-medium my-2">Home Basic</p>
         <p class="mb-10">
-          Our Personal Plan offers essential features at an affordable price,
-          without breaking the bank.
+          Perfect for casual browsing, email, and streaming in HD.
         </p>
-        <p class="text-4xl text-own-primary font-bold">$ 35.00</p>
-        <p class="text-sm text-gray-600">/ Per Single License</p>
+        <p class="text-4xl text-own-primary font-bold">$ 30.00</p>
+        <p class="text-sm text-gray-600">/ Month</p>
 
         <div class="my-10 flex flex-col gap-3">
           <div class="flex gap-2">
-            <img
-              class="w-[15px]"
-              src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
-              alt=""
-            />
-            <p>Basic Template Customization</p>
+            <img class="w-[15px]" src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg" alt="" />
+            <p>100 Mbps download/upload</p>
           </div>
           <div class="flex gap-2">
-            <img
-              class="w-[15px]"
-              src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
-              alt=""
-            />
-            <p>Limited CMS Collections</p>
+            <img class="w-[15px]" src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg" alt="" />
+            <p>Unlimited data</p>
           </div>
           <div class="flex gap-2">
-            <img
-              class="w-[15px]"
-              src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
-              alt=""
-            />
-            <p>Standard Hosting</p>
+            <img class="w-[15px]" src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg" alt="" />
+            <p>Free Wi-Fi router</p>
           </div>
         </div>
         <button class="outline-btn w-max !px-8 !py-4">Get Started</button>
@@ -495,90 +441,75 @@
       <div
         class="border-[3px] border-border rounded-xl p-8 hover:border-own-primary transition-all flex flex-col justify-between bg-black"
       >
-        <img
-          class="w-[70px]"
-          src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/665af904a98ef7d8d2a5ad7a_commercial-plan-icon_1.svg"
-          alt=""
-        />
-        <p class="text-3xl font-medium my-2 text-white">Commercial</p>
+        <!-- Family Fiber Icon SVG instead of PNG -->
+        <div class="flex justify-center">
+          <svg width="70" height="70" fill="none" viewBox="0 0 48 48">
+            <ellipse cx="24" cy="32" rx="13" ry="10" fill="#fff" opacity="0.1"/>
+            <circle cx="16.5" cy="32.5" r="4.5" fill="#38BDF8"/>
+            <circle cx="31.5" cy="31.5" r="6.5" fill="#2563eb"/>
+            <circle cx="24" cy="21.5" r="8.5" fill="#fff"/>
+            <circle cx="24" cy="24.5" r="3.5" fill="#2563eb" />
+          </svg>
+        </div>
+        <p class="text-3xl font-medium my-2 text-white">Family Fiber</p>
         <p class="mb-10 text-white">
-          Designed for small to medium-sized businesses, our Commercial Plan
-          provides advanced tool.
+          Fast, stable fiber internet for streaming, gaming, and smart homes.
         </p>
-        <p class="text-4xl text-own-primary font-bold">$ 55.00</p>
-        <p class="text-sm text-gray-600">/ Per Single License</p>
+        <p class="text-4xl text-own-primary font-bold">$ 65.00</p>
+        <p class="text-sm text-gray-600">/ Month</p>
 
         <div class="my-10 flex flex-col gap-3">
           <div class="flex gap-2">
-            <img
-              class="w-[15px]"
-              src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
-              alt=""
-            />
-            <p class="text-gray-100">Full Template Customization</p>
+            <img class="w-[15px]" src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg" alt="" />
+            <p class="text-gray-100">500 Mbps download/upload</p>
           </div>
           <div class="flex gap-2">
-            <img
-              class="w-[15px]"
-              src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
-              alt=""
-            />
-            <p class="text-gray-100">Expanded CMS Collections</p>
+            <img class="w-[15px]" src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg" alt="" />
+            <p class="text-gray-100">Whole-home coverage</p>
           </div>
           <div class="flex gap-2">
-            <img
-              class="w-[15px]"
-              src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
-              alt=""
-            />
-            <p class="text-gray-100">Priority Support</p>
+            <img class="w-[15px]" src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg" alt="" />
+            <p class="text-gray-100">24/7 Priority support</p>
           </div>
         </div>
-        <button class="btn w-max !px-8 !py-4">Get Started</button>
+        <button class="btn w-max !px-8 !py-4">Upgrade</button>
       </div>
       <div
         class="border-[3px] border-border rounded-xl p-8 hover:border-own-primary transition-all flex flex-col justify-between bg-white"
       >
-        <img
-          class="w-[70px]"
-          src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/665affecb78fada17882908a_extended-plan-icon.svg"
-          alt=""
-        />
-        <p class="text-3xl font-medium my-2">Extended</p>
+        <!-- Business Max Icon SVG instead of PNG -->
+        <div class="flex justify-center">
+          <svg width="70" height="70" fill="none" viewBox="0 0 48 48">
+            <rect x="12" y="20" width="24" height="16" rx="4" fill="#2563eb"/>
+            <rect x="18" y="16" width="12" height="6" rx="3" fill="#38BDF8" />
+            <rect x="18" y="36" width="12" height="2" rx="1" fill="#22D3EE"/>
+            <circle cx="36" cy="34" r="4" fill="#38BDF8"/>
+            <circle cx="24" cy="28" r="3" fill="#fff"/>
+            <rect x="26" y="22" width="4" height="2" rx="1" fill="#fff"/>
+          </svg>
+        </div>
+        <p class="text-3xl font-medium my-2">Business Max</p>
         <p class="mb-10">
-          Tailored for large enterprises and organizations, our Extended Plan
-          offers Enterprise solutions.
+          For offices, remote workers, or power users requiring ultra reliability and speed.
         </p>
-        <p class="text-4xl text-own-primary font-bold">$ 95.00</p>
-        <p class="text-sm text-gray-600">/ Per Single License</p>
+        <p class="text-4xl text-own-primary font-bold">$ 120.00</p>
+        <p class="text-sm text-gray-600">/ Month</p>
 
         <div class="my-10 flex flex-col gap-3">
           <div class="flex gap-2">
-            <img
-              class="w-[15px]"
-              src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
-              alt=""
-            />
-            <p>Enterprise Hosting Features</p>
+            <img class="w-[15px]" src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg" alt="" />
+            <p>1 Gbps download/upload</p>
           </div>
           <div class="flex gap-2">
-            <img
-              class="w-[15px]"
-              src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
-              alt=""
-            />
-            <p>Unlimited CMS Collections</p>
+            <img class="w-[15px]" src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg" alt="" />
+            <p>Static IP available</p>
           </div>
           <div class="flex gap-2">
-            <img
-              class="w-[15px]"
-              src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
-              alt=""
-            />
-            <p>Dedicated Support Manager</p>
+            <img class="w-[15px]" src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg" alt="" />
+            <p>Business-grade support</p>
           </div>
         </div>
-        <button class="outline-btn w-max !px-8 !py-4">Get Started</button>
+        <button class="outline-btn w-max !px-8 !py-4">Contact Sales</button>
       </div>
     </div>
   </div>
