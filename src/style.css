@@ -3,24 +3,28 @@
 @tailwind utilities;
 
 @layer utilities {
-
   body {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
+    scroll-behavior: smooth;
+  }
+
+  * {
+    scroll-behavior: smooth;
   }
   .padding {
     @apply xl:px-20 lg:px-16 md:px-10 px-5;
   }
 
   .btn {
-    @apply px-8 py-2 bg-own-primary text-white rounded-lg font-semibold;
+    @apply px-8 py-2 bg-own-primary text-white rounded-lg font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-own-primary/50;
   }
 
   .outline-btn {
-    @apply px-8 py-2 border-[2px] border-own-primary text-own-primary rounded-lg font-semibold;
+    @apply px-8 py-2 border-[2px] border-own-primary text-own-primary rounded-lg font-semibold transition-all duration-300 hover:bg-own-primary hover:text-white hover:shadow-lg;
   }
 
   .card {
-    @apply hover:border-own-primary hover:border-[2px] transition-all;
+    @apply hover:border-own-primary hover:border-[2px] transition-all duration-300 hover:shadow-lg;
   }
 
   .section-heading {
