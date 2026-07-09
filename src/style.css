@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-gray-50 text-gray-800 antialiased;
+    @apply bg-gray-50 text-gray-800 antialiased dark:bg-gray-950 dark:text-gray-200;
     scroll-behavior: smooth;
   }
 
@@ -23,22 +23,18 @@
   }
 
   .btn-outline {
-    @apply px-8 py-3 border-2 border-indigo-500 text-indigo-600 rounded-xl font-semibold transition-all duration-300 hover:bg-indigo-600 hover:text-white hover:shadow-lg hover:shadow-indigo-500/20 hover:-translate-y-0.5 active:translate-y-0;
+    @apply px-8 py-3 border-2 border-indigo-500 text-indigo-600 dark:text-indigo-400 rounded-xl font-semibold transition-all duration-300 hover:bg-indigo-600 hover:text-white hover:shadow-lg hover:shadow-indigo-500/20 hover:-translate-y-0.5 active:translate-y-0;
   }
 
   .btn-dark {
-    @apply px-8 py-3 bg-gray-900 text-white rounded-xl font-semibold transition-all duration-300 hover:bg-gray-800 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0;
+    @apply px-8 py-3 bg-gray-900 dark:bg-white dark:text-gray-900 text-white rounded-xl font-semibold transition-all duration-300 hover:bg-gray-800 dark:hover:bg-gray-100 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0;
   }
 
   .section-heading {
-    @apply text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight;
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight dark:text-white;
   }
 
   .section-desc {
-    @apply text-gray-500 text-lg mt-4 max-w-2xl;
-  }
-
-  .glass-card {
-    @apply bg-white/70 backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm;
+    @apply text-gray-500 dark:text-gray-400 text-lg mt-4 max-w-2xl;
   }
 }

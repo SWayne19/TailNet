@@ -54,7 +54,7 @@ const reviews = [
 <template>
   <section class="padding pt-32 pb-24">
     <div class="text-center max-w-2xl mx-auto">
-      <p class="text-sm font-semibold text-indigo-600 uppercase tracking-wider mb-3">
+      <p class="text-sm font-semibold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider mb-3">
         Testimonials
       </p>
       <h1 class="section-heading">
@@ -72,9 +72,8 @@ const reviews = [
       <div
         v-for="(review, i) in reviews"
         :key="i"
-        class="bg-white border border-gray-100 rounded-2xl p-8 hover:border-indigo-200 hover:shadow-xl hover:shadow-indigo-500/5 transition-all duration-300 hover:-translate-y-1 flex flex-col"
+        class="bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 rounded-2xl p-8 hover:border-indigo-200 dark:hover:border-indigo-500/30 hover:shadow-xl hover:shadow-indigo-500/5 transition-all duration-300 hover:-translate-y-1 flex flex-col"
       >
-        <!-- Stars -->
         <div class="flex gap-1 mb-4">
           <svg
             v-for="s in review.rating"
@@ -84,17 +83,15 @@ const reviews = [
             viewBox="0 0 24 24"
             fill="#f59e0b"
           >
-            <path
-              d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
-            />
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
           </svg>
         </div>
 
-        <p class="text-gray-700 leading-relaxed flex-1">
+        <p class="text-gray-700 dark:text-gray-300 leading-relaxed flex-1">
           "{{ review.text }}"
         </p>
 
-        <div class="flex items-center gap-3 mt-6 pt-6 border-t border-gray-100">
+        <div class="flex items-center gap-3 mt-6 pt-6 border-t border-gray-100 dark:border-gray-800">
           <div
             class="w-10 h-10 rounded-full bg-gradient-to-br flex items-center justify-center text-white text-sm font-bold"
             :class="review.color"
@@ -102,7 +99,7 @@ const reviews = [
             {{ review.initials }}
           </div>
           <div>
-            <p class="font-semibold text-gray-900 text-sm">{{ review.name }}</p>
+            <p class="font-semibold text-gray-900 dark:text-white text-sm">{{ review.name }}</p>
             <p class="text-xs text-gray-400">{{ review.role }}</p>
           </div>
         </div>
@@ -116,23 +113,23 @@ const reviews = [
       </p>
       <div class="flex flex-wrap justify-center items-center gap-8 md:gap-14">
         <div class="text-center">
-          <p class="text-3xl font-bold text-gray-900">50,000+</p>
-          <p class="text-sm text-gray-500 mt-1">Active Users</p>
+          <p class="text-3xl font-bold text-gray-900 dark:text-white">50,000+</p>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Active Users</p>
         </div>
-        <div class="w-px h-12 bg-gray-200 hidden sm:block"></div>
+        <div class="w-px h-12 bg-gray-200 dark:bg-gray-800 hidden sm:block"></div>
         <div class="text-center">
-          <p class="text-3xl font-bold text-gray-900">4.9/5</p>
-          <p class="text-sm text-gray-500 mt-1">Average Rating</p>
+          <p class="text-3xl font-bold text-gray-900 dark:text-white">4.9/5</p>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Average Rating</p>
         </div>
-        <div class="w-px h-12 bg-gray-200 hidden sm:block"></div>
+        <div class="w-px h-12 bg-gray-200 dark:bg-gray-800 hidden sm:block"></div>
         <div class="text-center">
-          <p class="text-3xl font-bold text-gray-900">99.9%</p>
-          <p class="text-sm text-gray-500 mt-1">Uptime SLA</p>
+          <p class="text-3xl font-bold text-gray-900 dark:text-white">99.9%</p>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Uptime SLA</p>
         </div>
-        <div class="w-px h-12 bg-gray-200 hidden sm:block"></div>
+        <div class="w-px h-12 bg-gray-200 dark:bg-gray-800 hidden sm:block"></div>
         <div class="text-center">
-          <p class="text-3xl font-bold text-gray-900">2 min</p>
-          <p class="text-sm text-gray-500 mt-1">Avg Support Response</p>
+          <p class="text-3xl font-bold text-gray-900 dark:text-white">2 min</p>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Avg Support Response</p>
         </div>
       </div>
     </div>

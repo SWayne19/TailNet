@@ -51,7 +51,7 @@ const coverageAreas = [
 <template>
   <section class="padding pt-32 pb-24">
     <div class="max-w-3xl">
-      <p class="text-sm font-semibold text-indigo-600 uppercase tracking-wider mb-3">
+      <p class="text-sm font-semibold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider mb-3">
         Compatibility
       </p>
       <h1 class="section-heading">Works With All Your Devices</h1>
@@ -61,12 +61,11 @@ const coverageAreas = [
       </p>
     </div>
 
-    <!-- Devices Grid -->
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-14">
       <div
         v-for="device in devices"
         :key="device.name"
-        class="group bg-white border border-gray-100 rounded-2xl p-8 hover:border-indigo-200 hover:shadow-xl hover:shadow-indigo-500/5 transition-all duration-300 hover:-translate-y-1"
+        class="group bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 rounded-2xl p-8 hover:border-indigo-200 dark:hover:border-indigo-500/30 hover:shadow-xl hover:shadow-indigo-500/5 transition-all duration-300 hover:-translate-y-1"
       >
         <div
           class="w-14 h-14 rounded-2xl bg-gradient-to-br flex items-center justify-center text-white mb-6 group-hover:scale-110 transition-transform duration-300"
@@ -76,8 +75,8 @@ const coverageAreas = [
             <path :d="device.iconPath" />
           </svg>
         </div>
-        <h3 class="text-lg font-bold text-gray-900">{{ device.name }}</h3>
-        <p class="text-gray-500 mt-2 leading-relaxed text-sm">
+        <h3 class="text-lg font-bold text-gray-900 dark:text-white">{{ device.name }}</h3>
+        <p class="text-gray-500 dark:text-gray-400 mt-2 leading-relaxed text-sm">
           {{ device.desc }}
         </p>
       </div>
@@ -85,12 +84,12 @@ const coverageAreas = [
   </section>
 
   <!-- Coverage Map Section -->
-  <section class="padding py-24 bg-gray-900 text-white">
+  <section class="padding py-24 bg-gray-900 dark:bg-gray-800/50 text-white">
     <div class="max-w-3xl">
       <p class="text-sm font-semibold text-indigo-400 uppercase tracking-wider mb-3">
         Coverage Area
       </p>
-      <h2 class="section-heading text-white">Check Our Coverage</h2>
+      <h2 class="section-heading !text-white">Check Our Coverage</h2>
       <p class="text-gray-400 text-lg mt-4 max-w-2xl">
         We're rapidly expanding our fiber network. Check if TailNet is available
         in your area.
