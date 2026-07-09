@@ -1,10 +1,12 @@
 import { createRouter, createWebHistory } from "vue-router";
 
+import HomePage from "../views/HomePage.vue";
+
 const routes = [
   {
     path: "/",
     name: "Home",
-    component: () => import("../views/HomePage.vue"),
+    component: HomePage,
   },
   {
     path: "/plans",
@@ -25,6 +27,10 @@ const routes = [
     path: "/reviews",
     name: "Reviews",
     component: () => import("../views/ReviewsPage.vue"),
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    redirect: "/",
   },
 ];
 
